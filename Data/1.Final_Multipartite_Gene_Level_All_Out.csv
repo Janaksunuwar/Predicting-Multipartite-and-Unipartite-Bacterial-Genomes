@@ -1,0 +1,100 @@
+
+Results_All_Set_Multipartite_Gene_Level
+The matrix size 42 X 56126,classifier,tr_precision_avg_as,tr_precision_stdev_as,tr_recall_avg_as,tr_recall_stdev_as,tr_f1_avg_as,tr_f1_stdev_as,te_precision_avg_as,te_precision_stdev_as,te_recall_avg_as,te_recall_stdev_as,te_f1_avg_as,te_f1_stdev_as,Tf_CV_Avg_as,Tf_CV_stdev_as,au_ROC_avg_as,au_ROC_stdev_as,au_PR_avg_as,au_PR_stdev_as
+0,LogR,1e+00,0.0,1.0,0.0,1.0,0.0,0.688,0.22,0.588,0.307,0.565,0.365,0.777,0.056,0.806,0.267,0.792,0.278
+1,gNB,1.0,0.0,1.0,0.0,1.0,0.0,0.688,0.234,0.616,0.29,0.648,0.333,0.812,0.069,0.688,0.234,0.765,0.286
+2,SVM,1.0,0.0,1.0,0.0,1.0,0.0,0.701,0.227,0.611,0.323,0.582,0.38,0.777,0.049,0.861,0.155,0.78,0.269
+3,DT,1.0,0.0,1.0,0.0,1.0,0.0,0.653,0.267,0.586,0.31,0.578,0.351,0.704,0.06,0.653,0.267,0.78,0.166
+4,RF,1.0,0.0,1.0,0.0,1.0,0.0,0.66,0.179,0.562,0.27,0.548,0.342,0.738,0.057,0.861,0.155,0.792,0.269
+5,KNN,0.953,0.042,0.952,0.043,0.954,0.042,0.785,0.205,0.743,0.268,0.793,0.294,0.789,0.048,0.764,0.335,0.776,0.308
+6,LDA,0.723,0.035,0.723,0.034,0.726,0.036,0.59,0.152,0.507,0.199,0.526,0.259,0.665,0.035,0.82,0.213,0.77,0.27
+7,mNB,1.0,0.0,1.0,0.0,1.0,0.0,0.646,0.253,0.598,0.289,0.642,0.345,0.786,0.051,0.771,0.139,0.728,0.241
+8,ABC,1.0,0.0,1.0,0.0,1.0,0.0,0.701,0.245,0.643,0.296,0.655,0.342,0.774,0.07,0.68,0.442,0.728,0.375
+9,GBC,1.0,0.0,1.0,0.0,1.0,0.0,0.68,0.228,0.608,0.289,0.604,0.33,0.718,0.061,0.806,0.193,0.849,0.133
+10,ETC,1.0,0.0,1.0,0.0,1.0,0.0,0.688,0.22,0.588,0.307,0.565,0.365,0.759,0.054,0.93,0.12,0.9,0.204
+11,BC,1.0,0.0,1.0,0.0,1.0,0.0,0.688,0.172,0.603,0.242,0.633,0.302,0.786,0.074,0.826,0.269,0.874,0.196
+
+No. of Top genes 200 Gene_Level
+
+Final_Consistent_Genes_Multipartite_Gene_Level
+,Feature
+0,"transposase, IS4 family"
+1,MATE efflux family protein
+2,dihydrodipicolinate synthase
+3,metallo-beta-lactamase family protein
+4,tRNA pseudouridine synthase A
+5,"transcriptional regulator, AraC family"
+6,dihydrodipicolinate reductase
+7,glyoxalase family protein
+8,"efflux transporter, RND family, MFP subunit"
+9,OsmC-like protein
+10,"transcriptional regulator, MarR family"
+11,riboflavin biosynthesis protein RibF
+12,tRNA pseudouridine synthase B
+13,FeS assembly ATPase SufC
+14,cyclic nucleotide-binding domain protein
+15,cupin domain protein
+16,FAD dependent oxidoreductase
+17,"preprotein translocase, YajC subunit"
+18,methionine gamma-lyase
+19,Maf-like protein
+20,enoyl-CoA hydratase/isomerase family protein
+21,outer membrane efflux protein
+22,"ABC transporter, permease protein"
+23,"phosphate ABC transporter, permease protein PstA"
+24,"phosphate ABC transporter, permease protein PstC"
+25,thioesterase family protein
+26,inorganic polyphosphate/ATP-NAD kinase
+27,NAD-dependent deacetylase
+28,segregation and condensation protein B
+29,anthranilate synthase component I
+30,"ABC transporter, ATP-binding protein"
+31,"hydrolase, NUDIX family"
+32,S1 RNA binding domain protein
+33,nitroreductase family protein
+34,universal stress family protein
+35,translation elongation factor Ts
+36,ribosome biogenesis GTP-binding protein YsxC
+37,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+38,phage integrase
+39,glyoxalase/bleomycin resistance protein/dioxygenase
+40,segregation and condensation protein A
+41,conserved domain protein
+42,"hydrolase, alpha/beta fold family"
+43,cytochrome P450 family protein
+44,acyl-CoA dehydrogenase domain-containing protein
+45,radical SAM domain protein
+46,DNA-binding protein HU
+47,Fe-S metabolism associated SufE
+48,NmrA family protein
+
+Intersection Multipartite Gene_Level
+
+No. of top consistent gene 15,classifier,tr_precision_avg_is,tr_precision_stdev_is,tr_recall_avg_is,tr_recall_stdev_is,tr_f1_avg_is,tr_f1_stdev_is,te_precision_avg_is,te_precision_stdev_is,te_recall_avg_is,te_recall_stdev_is,te_f1_avg_is,te_f1_stdev_is,Tf_CV_Avg_is,Tf_CV_stdev_is,au_ROC_avg_is,au_ROC_stdev_is,au_PR_avg_is,au_PR_stdev_is
+0,LogR,9.33e-01,0.024,0.933,0.023,0.934,0.024,0.882,0.122,0.87,0.129,0.91,0.072,0.858,0.029,0.972,0.068,0.985,0.038
+1,gNB,0.971,0.019,0.971,0.018,0.974,0.016,0.771,0.229,0.705,0.309,0.696,0.354,0.818,0.099,0.84,0.201,0.902,0.122
+2,SVM,0.981,0.015,0.981,0.015,0.982,0.014,0.854,0.184,0.822,0.235,0.818,0.268,0.868,0.029,0.972,0.068,0.985,0.038
+3,DT,1.0,0.0,1.0,0.0,1.0,0.0,0.875,0.194,0.846,0.246,0.839,0.278,0.856,0.044,0.875,0.194,0.922,0.113
+4,RF,1.0,0.0,1.0,0.0,1.0,0.0,0.854,0.184,0.822,0.235,0.818,0.268,0.857,0.044,0.972,0.068,0.985,0.038
+5,KNN,0.89,0.022,0.89,0.021,0.892,0.021,0.882,0.122,0.87,0.129,0.91,0.072,0.875,0.023,0.91,0.072,0.934,0.058
+6,LDA,0.995,0.012,0.995,0.012,0.996,0.011,0.715,0.187,0.672,0.244,0.716,0.288,0.857,0.049,0.792,0.252,0.777,0.258
+7,mNB,0.855,0.098,0.854,0.1,0.868,0.091,0.715,0.248,0.66,0.296,0.697,0.319,0.726,0.08,0.889,0.172,0.843,0.257
+8,ABC,1.0,0.0,1.0,0.0,1.0,0.0,0.882,0.11,0.878,0.11,0.893,0.108,0.861,0.047,0.972,0.068,0.985,0.038
+9,GBC,1.0,0.0,1.0,0.0,1.0,0.0,0.903,0.131,0.894,0.139,0.93,0.078,0.875,0.053,0.958,0.065,0.97,0.051
+10,ETC,1.0,0.0,1.0,0.0,1.0,0.0,0.854,0.184,0.822,0.235,0.818,0.268,0.848,0.033,0.951,0.077,0.964,0.057
+11,BC,0.972,0.025,0.971,0.025,0.973,0.025,0.833,0.188,0.798,0.239,0.806,0.267,0.854,0.02,0.965,0.055,0.972,0.05
+
+Random Gene Level Multipartite
+,classifier,tr_precision_avg_rs,tr_precision_stdev_rs,tr_recall_avg_rs,tr_recall_stdev_rs,tr_f1_avg_rs,tr_f1_stdev_rs,te_precision_avg_rs,te_precision_stdev_rs,te_recall_avg_rs,te_recall_stdev_rs,te_f1_avg_rs,te_f1_stdev_rs,Tf_CV_Avg_rs,Tf_CV_stdev_rs,au_ROC_avg_rs,au_ROC_stdev_rs,au_PR_avg_rs,au_PR_stdev_rs
+0,LogR,7.34e-01,0.24,0.728,0.108,0.819,0.14,0.615,0.334,0.527,0.246,0.498,0.215,0.624,0.095,0.659,0.112,0.781,0.093
+1,gNB,0.814,0.227,0.72,0.096,0.75,0.128,0.745,0.279,0.554,0.176,0.461,0.127,0.573,0.056,0.608,0.123,0.734,0.106
+2,SVM,0.743,0.237,0.738,0.109,0.833,0.153,0.54,0.294,0.5,0.259,0.5,0.255,0.631,0.119,0.576,0.209,0.678,0.157
+3,DT,0.759,0.236,0.745,0.116,0.826,0.145,0.645,0.307,0.546,0.226,0.511,0.2,0.624,0.094,0.63,0.114,0.765,0.098
+4,RF,0.806,0.207,0.761,0.101,0.799,0.134,0.69,0.274,0.571,0.201,0.521,0.188,0.615,0.097,0.643,0.107,0.768,0.088
+5,KNN,0.74,0.242,0.675,0.091,0.731,0.176,0.625,0.279,0.496,0.158,0.446,0.112,0.589,0.098,0.607,0.111,0.774,0.061
+6,LDA,0.78,0.225,0.747,0.105,0.804,0.136,0.675,0.279,0.557,0.205,0.509,0.187,0.61,0.097,0.63,0.112,0.746,0.11
+7,mNB,0.529,0.216,0.601,0.162,0.884,0.092,0.47,0.165,0.425,0.164,0.429,0.171,0.558,0.088,0.67,0.088,0.746,0.079
+8,ABC,0.779,0.224,0.747,0.099,0.805,0.138,0.685,0.274,0.566,0.199,0.516,0.181,0.612,0.093,0.625,0.109,0.753,0.102
+9,GBC,0.787,0.244,0.753,0.112,0.816,0.155,0.7,0.283,0.582,0.191,0.538,0.161,0.622,0.092,0.634,0.103,0.754,0.102
+10,ETC,0.759,0.236,0.745,0.116,0.826,0.145,0.645,0.307,0.545,0.226,0.51,0.2,0.622,0.092,0.645,0.107,0.774,0.085
+11,BC,0.786,0.212,0.751,0.104,0.801,0.131,0.68,0.279,0.563,0.201,0.52,0.177,0.61,0.094,0.651,0.101,0.774,0.08
